@@ -49,14 +49,5 @@
     "prestart": "tree-sitter build --wasm",
     "start": "tree-sitter playground",
     "test": "node --test bindings/node/*_test.js"
-  },
-  "tree-sitter": [
-    {
-      "scope": "source.zig",
-      "file-types": [
-        "zig"
-      ],
-      "injection-regex": "zig"
-    }
-  ]
+  }
 }

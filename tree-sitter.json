@@ -1,0 +1,36 @@
+{
+  "grammars": [
+    {
+      "name": "@grammars/zig",
+      "camelcase": "GrammarsZig",
+      "scope": "source.zig",
+      "path": ".",
+      "file-types": [
+        "zig"
+      ],
+      "injection-regex": "zig"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.2",
+    "license": "MIT",
+    "description": "Zig grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Amaan Qureshi",
+        "email": "amaanq12@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter-grammars/tree-sitter-zig"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
